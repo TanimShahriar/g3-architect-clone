@@ -1,0 +1,101 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+
+/* header section */
+.header {
+  background-color: rgba(255, 144, 14, 0.10);
+
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 170px 20px 230px;
+}
+
+.menu-item {
+  color: var(--dark-02, #424242);
+  font-size: 18px;
+  font-weight: 500;
+  transition: .5s;
+}
+
+.menu-item:hover {
+  background-color: #c5bdbd;
+  cursor: pointer;
+}
+
+nav>ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav li {
+  list-style: none;
+}
+
+.header-section {
+  text-align: center;
+}
+
+.header-title {
+  color: var(--dark-01, #131313);
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
+.header-section-heading {
+  color: var(--dark-01, #131313);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: .3
+}
+
+.header-section-p {
+  color: var(--dark-03, #727272);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: .4;
+}
+
+.explore-more-btn {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FF900E;
+  border: 0;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  transition: .4s;
+}
+
+.explore-more-btn:hover {
+  cursor: pointer;
+  background-color: #ee9c3f;
+}
+
+@media screen and (max-width: 576px) {
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+  }
+
+  .header-section-heading {
+    color: var(--dark-01, #131313);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: .3
+  }
+
+
+}
