@@ -129,6 +129,64 @@ main {
   margin-bottom: 10px;
 }
 
+/* feature section */
+.features-section {
+  display: flex;
+  gap: 140px;
+}
+
+.features-title {
+  color: var(--dark-01, #131313);
+  width: 468px;
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 20px;
+  border-left: 5px solid #FF900E;
+}
+
+.features-description {
+  color: var(--dark-03, #727272);
+  width: 586px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.features-services {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.single-features-service {
+  width: 580px;
+  height: 170px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+}
+
+.single-features-service h5 {
+  color: var(--dark-01, #131313);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.single-features-service p {
+  color: var(--dark-03, #727272);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: -20px;
+}
+
+.single-features-service h5,
+.single-features-service p {
+  margin-left: 20px;
+}
+
+
 /* statistics section */
 .statistics-section {
   margin: 100px 0px;
@@ -219,7 +277,6 @@ main {
   font-size: 20px;
   font-weight: 400;
 }
-
 
 
 /* media query */
