@@ -363,26 +363,29 @@ main {
   }
 
   .single-features-service {
-    width: 480px;
-    height: 170px;
+    width: 380px;
+    height: 190px;
     margin: 20px auto;
   }
 
+  .single-features-service p {
+    margin-bottom: 10px;
+  }
+
   .features-title {
-    width: 480px;
+    width: 380px;
     margin: 0 auto;
   }
 
   .features-description {
-    width: 480px;
+    width: 380px;
     margin: 20px auto;
   }
 
   .features-img {
-    width: 480px;
+    width: 380px;
     margin: 0 auto;
     margin-top: -100px;
-    /* margin-top: -100px; */
   }
 
   .features-img img {
@@ -392,5 +395,4 @@ main {
   .ten-years-badge {
     left: 0px;
   }
-
 }
