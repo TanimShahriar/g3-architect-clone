@@ -186,6 +186,33 @@ main {
   margin-left: 20px;
 }
 
+.ten-years-badge {
+  text-align: center;
+  padding: 2rem;
+  background-color: #FF900E;
+  width: 250px;
+  height: 130px;
+  border-radius: 8px;
+  position: relative;
+  bottom: 120px;
+  right: 100px;
+}
+
+.ten-years-badge h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FFF;
+  font-size: 4rem;
+  font-weight: 700;
+  /* line-height: .5; */
+}
+
+.ten-years-badge p {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: .1;
+}
 
 /* statistics section */
 .statistics-section {
@@ -325,6 +352,45 @@ main {
 
   .copyright {
     padding: 10px 50px;
+  }
+
+  .features-section {
+    flex-direction: column;
+  }
+
+  .features-content {
+    text-align: center;
+  }
+
+  .single-features-service {
+    width: 480px;
+    height: 170px;
+    margin: 20px auto;
+  }
+
+  .features-title {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  .features-description {
+    width: 480px;
+    margin: 20px auto;
+  }
+
+  .features-img {
+    width: 480px;
+    margin: 0 auto;
+    margin-top: -100px;
+    /* margin-top: -100px; */
+  }
+
+  .features-img img {
+    width: 100%;
+  }
+
+  .ten-years-badge {
+    left: 0px;
   }
 
 }
